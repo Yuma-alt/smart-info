@@ -399,7 +399,25 @@ a.panel:hover {
   transition: all 1s;
 }
 
+.btn-f {
+  padding: 15px 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  /* display: block; */
+  /* margin: 0 auto; */
+  border-radius: 3px;
+  /* ボタンのデフォルトスタイルをOFFに */
+  border: none;
+  transition: all 1s;
+}
+
 .btn-q:hover {
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn-f:hover {
   cursor: pointer;
   transition: all 1s;
 }
@@ -570,4 +588,8 @@ input[type="submit"]:hover {
   /* text-align: justify;
   text-justify: auto; */
   font-family: 'Hiragino Kaku Gothic Pro';
+}
+
+.forum-button{
+  display: flex;
 }
